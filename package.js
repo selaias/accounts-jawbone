@@ -1,6 +1,6 @@
 Package.describe({
   name: 'selaias:accounts-jawbone',
-  version: '0.1.0',
+  version: '1.0.0',
   summary: 'Login service for Jawbone accounts',
   git: 'https://github.com/selaias/accounts-jawbone.git',
   documentation: 'README.md'
@@ -13,7 +13,7 @@ Package.onUse(function(api) {
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
   
-  api.use('selaias:oauth-jawbone@0.1.0', ['client', 'server']);
+  api.use('selaias:oauth-jawbone@1.0.0', ['client', 'server']);
 
   api.addFiles("jawbone.js");
 

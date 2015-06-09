@@ -1,6 +1,6 @@
 # Jawbone
 
-Login service for Jawbone accounts in Meteor
+Login service for Jawbone-UP accounts in Meteor
 
 read more at [https://www.meteor.com/accounts] https://www.meteor.com/accounts
 
